@@ -8,7 +8,8 @@ COLOR_YELLOW="\033[33m"
 
 # Function to display the usage message
 display_help() {
-    echo -e "${COLOR_YELLOW}Usage: $0 [options] [model]${COLOR_RESET}"
+    local script_name=$(basename "$0")
+    echo -e "${COLOR_YELLOW}Usage: ${script_name} [options] [model]${COLOR_RESET}"
     echo -e "${COLOR_YELLOW}Options:${COLOR_RESET}"
     echo -e "${COLOR_GREEN}  -h, --help              Show this help message${COLOR_RESET}"
     echo -e "${COLOR_GREEN}  --namespace=<ns>        Optional namespace (default is empty)${COLOR_RESET}"
