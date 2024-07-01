@@ -1,0 +1,9 @@
+{
+  "name": "mphpmaster/dto-generator",
+  "description": "DataTransferObjects file generator.",
+  "type": "project",
+  "license": "MIT",
+  "require": {},
+  "bin": ["dto"],
+  "homepage": "https://github.com/mPhpMaster/dto-generator"
+}
