@@ -32,13 +32,13 @@ composer global require mPhpMaster/dto-generator
 2. Make the script executable:
 
     ```bash
-    chmod +x dto.sh
+    chmod +x dto
     ```
 
 3. Move the script to a directory in your PATH, for example:
 
     ```bash
-    sudo mv dto.sh /usr/local/bin/dto
+    sudo mv dto /usr/local/bin/dto
     ```
 
 ## Usage
